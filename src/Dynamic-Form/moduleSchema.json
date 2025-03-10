@@ -1,0 +1,69 @@
+{
+    "fields": [
+      {
+        "label": "Full Name",
+        "name": "fullName",
+        "type": "text",
+        "placeholder": "Enter your full name",
+        "required": true
+      },
+      {
+        "label": "Email Address",
+        "name": "email",
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "required": true
+      },
+      {
+        "label": "Gender",
+        "name": "gender",
+        "type": "select",
+        "options": ["Male", "Female", "Other"],
+        "required": true
+      },
+      {
+        "label": "Subscribe to Newsletter",
+        "name": "subscribe",
+        "type": "checkbox"
+      },
+      {
+        "label": "Education",
+        "name": "education",
+        "type": "section",
+        "fields": [
+          {
+            "label": "Degree",
+            "name": "degree",
+            "type": "text",
+            "placeholder": "Enter your degree"
+          },
+          {
+            "label": "University",
+            "name": "university",
+            "type": "text",
+            "placeholder": "Enter your university name"
+          }
+        ]
+      },
+      {
+        "label": "Work Experience",
+        "name": "workExperience",
+        "type": "section",
+        "fields": [
+          {
+            "label": "Company Name",
+            "name": "company",
+            "type": "text",
+            "placeholder": "Enter your company name"
+          },
+          {
+            "label": "Role",
+            "name": "role",
+            "type": "text",
+            "placeholder": "Enter your role"
+          }
+        ]
+      }
+    ]
+  }
+  
